@@ -38,12 +38,11 @@ dotnet build
 dotnet run
 ```
 
-```terminal
 - No terminal do producer, você pode enviar mensagens para o tópico especificado. No terminal do consumer, você verá as mensagens recebidas
 
 - Para parar o contêiner do Kafka, execute
 
-```terminal
+```ubuntu
 docker stop kafka
 docker rm kafka
 ```
